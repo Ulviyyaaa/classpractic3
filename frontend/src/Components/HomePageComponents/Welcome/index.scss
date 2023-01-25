@@ -1,0 +1,31 @@
+.mainWe{
+   background: url("https://images.unsplash.com/photo-1531266752426-aad472b7bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29ybGR8ZW58MHx8MHx8&w=1000&q=80");
+   height: 80vh;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   .weWord{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p{
+        font-size: 50px;
+        color: white;
+    }
+    h2{
+        font-size: 90px;
+        color: white;
+    }
+    .btn{
+        background-color: rgb(50, 158, 230);
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+    }
+   }
+}
